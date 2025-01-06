@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
         jobTitle,
         link,
         jobLocation,
-        status: status || "applied",
+        status: status || "Applied",
       },
     });
     console.log(newApplication);
